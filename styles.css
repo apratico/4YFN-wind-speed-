@@ -1,0 +1,281 @@
+/* UUID: 335224-105357-215299-938846- */ 
+
+html {
+    margin: auto;
+    width: min-content;
+}
+body {
+    margin: 0;
+    width: min-content;
+}
+img {
+  border: 0px;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+button, input, optgroup, select, textarea {
+  margin: 0px;
+  font-style: inherit;
+  font-variant: inherit;
+  font-weight: inherit;
+  font-stretch: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  font-family: inherit;
+  color: inherit;
+}
+
+button {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+input {
+  line-height: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input, button, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.label {
+  display: inline;
+  padding: 0.2em 0.6em 0.3em;
+  font-size: 75%;
+  font-weight: bold;
+  line-height: 1;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25em;
+}
+
+.viewport {
+  user-select: none;
+  width: 100%;
+  height: 100%;
+}
+
+.element {
+  cursor: default;
+  position: absolute;
+  overflow: hidden;
+}
+
+.element * {
+  vector-effect: non-scaling-stroke;
+}
+
+.wordwrap {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+#button_text, #label_text {
+  position: absolute;
+  display: none;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+body, input, button, select, textarea {
+  font-family: proxima_nova, Arial, Helvetica, sans-serif;
+}
+
+input, textarea, select {
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+.element.fc.Button .btn {
+  border-style: none;
+  width: 100%;
+  height: 100%;
+  font-weight: normal;
+  background-size: 100%;
+  cursor: inherit;
+}
+
+.element.fc.Label {
+  border-style: none;
+}
+
+.element.fc.Label .label-wrapper {
+  width: 100%;
+  height: 100%;
+  display: table;
+  position: relative;
+}
+
+.element.fc.Label .label.wordwrap {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  word-break: break-word;
+  border-radius: 0px;
+}
+
+.element.fc.Label .label {
+  width: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 0px;
+  padding-right: 0px;
+  font-weight: normal;
+}
+
+.element.fc.Image {
+  overflow: hidden;
+  text-align: center;
+}
+
+.element.fc.Container {
+  background-color: rgb(238, 238, 238);
+}
+
+.element.fc.Gauge div {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+#fcGauge {
+  width: 100%;
+  height: 100%;
+}
+
+.element.fc.Screen {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 6px;
+  background-size: cover;
+  overflow: visible;
+}
+
+.snapp-html5.fc.Screen {
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+  display: none;
+  transform: none !important;
+}
+
+.c3 svg {
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-size: 10px;
+  line-height: normal;
+  font-family: sans-serif;
+}
+
+.c3 line, .c3 path {
+  fill: none;
+  stroke: rgb(0, 0, 0);
+}
+
+.c3 text {
+  user-select: none;
+}
+
+.c3-bars path, .c3-event-rect, .c3-legend-item-tile, .c3-xgrid-focus, .c3-ygrid {
+  shape-rendering: crispEdges;
+}
+
+.c3-chart-arc path {
+  stroke: rgb(255, 255, 255);
+}
+
+.c3-chart-arc text {
+  fill: rgb(255, 255, 255);
+  font-size: 13px;
+}
+
+.c3-grid line {
+  stroke: rgb(170, 170, 170);
+}
+
+.c3-text.c3-empty {
+  fill: gray;
+  font-size: 2em;
+}
+
+.c3-brush .extent {
+  fill-opacity: 0.1;
+}
+
+.c3-tooltip-container {
+  z-index: 10;
+}
+
+.c3-chart-arcs-title {
+  dominant-baseline: middle;
+  font-size: 1.3em;
+}
+
+.c3-chart-arcs .c3-chart-arcs-background {
+  fill: rgb(224, 224, 224);
+  stroke: none;
+}
+
+.c3-chart-arcs .c3-chart-arcs-gauge-unit {
+  fill: rgb(0, 0, 0);
+  font-size: 16px;
+}
+
+.c3-chart-arcs .c3-chart-arcs-gauge-max, .c3-chart-arcs .c3-chart-arcs-gauge-min {
+  fill: rgb(119, 119, 119);
+}
+
+.c3-chart-arc .c3-gauge-value {
+  fill: rgb(0, 0, 0);
+}
